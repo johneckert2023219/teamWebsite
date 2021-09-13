@@ -1,0 +1,11 @@
+/*Oley will do the CSS*/
+body {
+  background: #303234;
+  color: white;
+  font-family: "Segoe UI";
+  padding: 8px 32px;
+}
+
+a {
+  color: #bfcfff;
+}
