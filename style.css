@@ -9,3 +9,17 @@ body {
 a {
   color: #bfcfff;
 }
+
+button {
+  font-size: 24px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #404345;
+}
