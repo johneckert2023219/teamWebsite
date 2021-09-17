@@ -16,5 +16,9 @@ function jaysinH() {
 }
 
 function christianBoldt() {
+ alert('got your neck lmao')
+}
 
+function christianBoldt2() {
+ window.open('https://www.youtube.com/watch?v=-uAZdIJIl8o')
 }
