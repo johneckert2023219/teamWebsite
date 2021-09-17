@@ -8,8 +8,12 @@ function aboutButton() {
 }
 
 function johnEckert() {
+<<<<<<< HEAD
+alert("close this if you're stupid")
+=======
   alert "close this if you're stupid";
   window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+>>>>>>> 5cd0d43bffddaa405d0283146e36ae0ceeca47d3
 }
 
 function jaysinH() {
