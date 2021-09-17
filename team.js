@@ -8,7 +8,8 @@ function aboutButton() {
 }
 
 function johnEckert() {
-
+  alert "close this if you're stupid";
+  window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 }
 
 function jaysinH() {
@@ -16,9 +17,6 @@ function jaysinH() {
 }
 
 function christianBoldt() {
- alert('got your neck lmao')
-}
-
-function christianBoldt2() {
- window.open('https://www.youtube.com/watch?v=-uAZdIJIl8o')
+  alert('got your neck lmao')
+  window.open('https://www.youtube.com/watch?v=-uAZdIJIl8o')
 }
