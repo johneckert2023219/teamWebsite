@@ -6,19 +6,19 @@ const port = process.env.PORT || 8080;
 
 // sendFile will go here
 app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, '/main.html'));
+  res.sendFile(path.join(__dirname, '/home.html'));
 });
-app.get("/chris", (req, res) => {
-  res.sendFile(path.join(__dirname, '/oley.html'));
+app.get("/oleyBirkeland", (req, res) => {
+  res.sendFile(path.join(__dirname, '/oleyBirkeland.html'));
 });
-app.get("/will", (req, res) => {
-  res.sendFile(path.join(__dirname, '/john.html'));
+app.get("/johnEckert", (req, res) => {
+  res.sendFile(path.join(__dirname, '/johnEckert.html'));
 });
-app.get("/jayson", (req, res) => {
-  res.sendFile(path.join(__dirname, '/jaysin.html'));
+app.get("/jaysinH", (req, res) => {
+  res.sendFile(path.join(__dirname, '/jaysinH.html'));
 });
-app.get("/tyler", (req, res) => {
-  res.sendFile(path.join(__dirname, '/christian.html'));
+app.get("/christianBoldt", (req, res) => {
+  res.sendFile(path.join(__dirname, '/christianBoldt.html'));
 });
 
 app.listen(port);
